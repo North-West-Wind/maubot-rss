@@ -97,6 +97,7 @@ class Entry:
     title: str
     summary: str
     link: str
+    media_content: str
 
     @classmethod
     def from_row(cls, row: Record | None) -> Entry | None:

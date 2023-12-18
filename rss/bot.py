@@ -426,7 +426,7 @@ class RSSBot(Plugin):
             title="Sample entry",
             summary="This is a sample entry to demonstrate your new template",
             link="http://example.com",
-            media_content=""
+            media_content="https://matrix.northwestw.in/_matrix/media/r0/download/matrix.northwestw.in/NXrDchYdUJsxyUTHBlvrOPzV"
         )
         await evt.reply(f"Template for feed ID {feed.id} updated. Sample notification:")
         await self._send(feed, sample_entry, sub)
